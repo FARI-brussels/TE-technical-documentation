@@ -1,5 +1,5 @@
-Documentation
-===
+documentation
+=============
 
 .. autosummary::
    :toctree: generated

@@ -1,5 +1,5 @@
-Architecture
-===
+architecture
+============
 
 .. autosummary::
    :toctree: generated

@@ -1,5 +1,5 @@
-Demos
-===
+demos
+=====
 
 .. autosummary::
    :toctree: generated

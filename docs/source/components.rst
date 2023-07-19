@@ -1,5 +1,5 @@
 Components
-===
+==========
 
 .. autosummary::
    :toctree: generated
