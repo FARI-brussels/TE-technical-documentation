@@ -1,4 +1,4 @@
-Usage
+Processes
 =====
 
 .. _installation:
