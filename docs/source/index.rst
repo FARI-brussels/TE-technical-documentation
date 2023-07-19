@@ -1,5 +1,5 @@
 Welcome to FARI T&E technical documentation
-===================================
+===========================================
 
 **Fari T&E** (/lu'make/) is great
 
@@ -14,10 +14,10 @@ Contents
 --------
 
 .. toctree::
-   
+
    architecture
    processes
-   demos
+   demonstration
    components
    documentation
 
