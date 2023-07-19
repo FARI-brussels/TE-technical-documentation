@@ -1,34 +1,33 @@
 Processes
-=====
+=========
 
-.. _installation:
+.. _starting:
 
-Installation
-------------
+Starting the T&E
+-----------------
 
-To use Lumache, first install it using pip:
+1. In the Anemones room, press the start demo button on the screen. 
 
-.. code-block:: console
+Troubleshooting
+^^^^^^^^^^^^^
 
-   (.venv) $ pip install lumache
+**Solution 2**: Remove the smart plugs and plug in every single board computer. The single board computer switches on when plugged in and the demo starts automatically when the single board computer starts. If the demo doesn’t start when switched on, double click on the desktop link corresponding to the demo.
 
-Creating recipes
-----------------
+.. _stopping:
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+Stopping the T&E
+-----------------
 
-.. autofunction:: lumache.get_random_ingredients
+In the Anemones room, press the stop demo button on the screen. If the SBC is off, plug it in and the program should start automatically.
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+Troubleshooting
+^^^^^^^^^^^^^
 
-.. autoexception:: lumache.InvalidKindError
+.. _adding:
 
-For example:
+Adding a Demo
+-------------
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
-
+1. Configure a new SBC (see above)
+2. Create a new ``name_of_the_demo.sh``
+3. Run the script ``add_demo.sh`` to add a desktop link with the new demo to all SBCs
