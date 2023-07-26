@@ -4,7 +4,7 @@ Demos are hosted on SBCs
 
 
 .. figure:: figures/TEarchitecture.drawio.png
-   :scale: 40 %
+   :scale: 80 %
    :alt: Alternative text for image
 
    General architecture
