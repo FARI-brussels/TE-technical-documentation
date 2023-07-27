@@ -21,6 +21,7 @@ Stopping the T&E
 
 1. Unplug every socket connected to a single board computer. For the ground floor, directly unplug the socket on the floor.
 2. For the haptic device demo, unplug the computer.
+3. For both the computer vision demos, you can click the three dot in the upper corner of the demo and select full screen to have the demos in full screen.
 
 Adding a Demo
 -------------
