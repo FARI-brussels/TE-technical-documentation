@@ -1,10 +1,8 @@
 Welcome to FARI T&E technical documentation
 ===========================================
 
-**Fari T&E** (/lu'make/) is great
+**Fari T&E** is great
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
 
 .. note::
 
