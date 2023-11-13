@@ -65,6 +65,8 @@ Add the following lines to the file:
    autologin-user=fari
    autologin-user-timeout=0
 
+Final file should look like that : 
+
 .. code-block:: none
 
    [Seat:*]
@@ -97,7 +99,6 @@ Optional Steps
 .. autosummary::
    :toctree: generated
 
-   lumache
 
 .. _sp:
 
@@ -113,4 +114,3 @@ As the local ip addresses of the T&E center are not fixed, the ip field is somet
 .. autosummary::
    :toctree: generated
 
-   lumache
