@@ -15,4 +15,4 @@ Here we represent only three SBC but there are more in the T&E centre.
 .. autosummary::
    :toctree: generated
 
-   lumache
+

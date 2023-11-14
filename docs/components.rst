@@ -14,12 +14,12 @@ CMS is based on strapi and hosted on Gandi
 .. _sbc:
 
 Single Board Computers
-======================
+----------------------
 
 We currently have three different Single Board Computers (SBCs): Odroid C4, Odroid N2, and Raspberry Pi 4. All models run Armbian version 22 or greater with the GNOME desktop environment. Custom Fari images for each SBC can be found at the provided link (ADD LINK!).
 
 Setting Up a Fari image for a New SBC type
-------------------------------------------
+``````````````````````````````````````````
 
 To prepare a new SBC with the Armbian image, follow these steps:
 
@@ -31,7 +31,7 @@ To prepare a new SBC with the Armbian image, follow these steps:
 6. During the initial setup, opt to skip Wi-Fi connection and locale generation (skip locales 154).
 
 Initial System Update and Package Installation
-----------------------------------------------
+``````````````````````````````````````````````
 
 Run the following commands to update the system and install necessary packages:
 
@@ -49,7 +49,7 @@ Repeat the update and upgrade commands to ensure all packages are up to date:
    sudo apt upgrade
 
 Configuring Auto-login
-----------------------
+``````````````````````
 
 To enable auto-login, modify the `11-armbian.conf` file located in `/etc/lightdm/lightdm.conf.d`:
 
@@ -78,7 +78,7 @@ Final file should look like that :
    allow-guest=false
 
 Optional Steps
---------------
+``````````````
 
 - **Node.js Installation**: Follow the instructions at [nodesource/distributions](https://github.com/nodesource/distributions) to install Node.js.
 
