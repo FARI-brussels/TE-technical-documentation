@@ -1,3 +1,4 @@
+.. _components:
 Components
 ==========
 
@@ -6,8 +7,8 @@ Components
 Content Management System
 -------------------------
 
-The experience center CMS is based on strapi. The documentation can be found [here](https://strapi.io/documentation/developer-docs/latest/getting-started/introduction.html).
-It is currently hosted on Gandi and can be accessed [here](http://46.226.110.124:1337/admin/). If you need access to the CMS, please contact Siméon Michel.
+The experience center CMS is based on strapi. The documentation can be found `here <https://strapi.io/documentation/developer-docs/latest/getting-started/introduction.html>`_.
+It is currently hosted on Gandi and can be accessed `here <http://46.226.110.124:1337/admin/>`_. If you need access to the CMS, please contact Siméon Michel.
 We will soon migrate the CMS to a Strapi cloud infrastructure and the documentation will be updated accordingly.
 
 The content management system contains the following collections:
@@ -45,7 +46,7 @@ Setting Up a Fari image for a New SBC type
 
 To prepare a new SBC with the Armbian image, follow these steps:
 
-1. Download the latest Armbian image with GNOME desktop from here (https://www.armbian.com/download/?device_support=Supported.)
+1. Download the latest Armbian image with GNOME desktop from `here <https://www.armbian.com/download/?device_support=Supported>`_.
 2. Use Balena Etcher or a similar tool to flash the image onto an SD card.
 3. Insert the SD card into the SBC and power it on.
 4. When prompted, set the root and user passwords to `fari.brussels` and choose `fari` as the username. Note: The default keyboard layout is QWERTY.

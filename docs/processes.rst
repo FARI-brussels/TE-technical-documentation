@@ -1,3 +1,4 @@
+.. _processes:
 Processes
 =========
 
@@ -18,6 +19,7 @@ Troubleshooting
 ^^^^^^^^^^^^^^^
 
 In case of power outage, the plugs take a few minutes to reconnect to the wifi. If you wich to turn everything back on more rapidly, follow the steps below.
+
 1. Click on the side button of each smart plug to turn them on. 
 
 .. _stopping:
