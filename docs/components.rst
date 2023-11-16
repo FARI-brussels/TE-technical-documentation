@@ -128,7 +128,7 @@ Smart Plugs
 -----------
 
 All demos are wired to electricity through shelly smart plugs. The documentation can be found [here](https://shelly-api-docs.shelly.cloud/).
-To access the dashboard, you can download the [shelly mobile app](https://play.google.com/store/apps/details?id=cloud.shelly.smartcontrol&hl=en_US) or access to the [web app](https://control.shelly.cloud/)
+To access the dashboard, you can download the `shelly mobile app <https://play.google.com/store/apps/details?id=cloud.shelly.smartcontrol&hl=en_US>`_ or access to the `web app <https://control.shelly.cloud/>`_.
 The credentials can be found on the test and experience password vault.
 
 .. autosummary::
