@@ -1,3 +1,4 @@
+.. _architecture:
 Architecture
 ============
 Demos are hosted on SBCs
