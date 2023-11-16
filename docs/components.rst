@@ -16,7 +16,11 @@ CMS is based on strapi and hosted on Gandi
 Single Board Computers
 ----------------------
 
-We currently have three different Single Board Computers (SBCs): Odroid C4, Odroid N2, and Raspberry Pi 4. All models run Armbian version 22 or greater with the GNOME desktop environment. Custom Fari images for each SBC can be found at the provided link (ADD LINK!).
+We currently have three different Single Board Computers (SBCs): Odroid C4, Odroid N2, and Raspberry Pi 4. 
+All models run Armbian version 22 or greater with the GNOME desktop environment. 
+Custom Fari images for each SBC can be found at the provided link (ADD LINK!).
+
+⚠️ When you add a new SBC, please register its mac addres in the Content Management System (required for the scripts to work in case we don't have access to fixed local ips)
 
 Setting Up a Fari image for a New SBC type
 ``````````````````````````````````````````
@@ -105,11 +109,9 @@ Optional Steps
 Smart Plugs
 -----------
 
-All demos are wired to electricity through shelly smart plugs. The documentation can be found here.
-To access the dashboard, you can download the shelly app or access the web app: https://home.shelly.cloud/
+All demos are wired to electricity through shelly smart plugs. The documentation can be found [here](https://shelly-api-docs.shelly.cloud/).
+To access the dashboard, you can download the [shelly mobile app](https://play.google.com/store/apps/details?id=cloud.shelly.smartcontrol&hl=en_US) or access to the [web app](https://control.shelly.cloud/)
 The credentials can be found on the test and experience password vault.
-The mac/local ip address pair of each device can be found on the Content Management system under "Device" content type.
-As the local ip addresses of the T&E center are not fixed, the ip field is sometimes updated by the start up script.
 
 .. autosummary::
    :toctree: generated
@@ -117,4 +119,4 @@ As the local ip addresses of the T&E center are not fixed, the ip field is somet
 
 .. _scripts:
 Scripts
---------
+-------
