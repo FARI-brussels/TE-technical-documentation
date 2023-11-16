@@ -14,7 +14,7 @@ Custom Fari images for each SBC can be found at the provided link (ADD LINK!).
 ⚠️ When you add a new SBC, please register its mac addres in the Content Management System (required for the scripts to work in case we don't have access to fixed local ips)
 
 Setting Up a Fari image for a New SBC type
-``````````````````````````````````````````
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To prepare a new SBC with the Armbian image, follow these steps:
 
