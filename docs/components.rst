@@ -12,21 +12,21 @@ We will soon migrate the CMS to a Strapi cloud infrastructure and the documentat
 
 The content management system contains the following collections:
 
-1. demo (en/fr/nl)
+1. **demo** (en/fr/nl)
    Contains all the information about the demos for the welcome screen to work properly. 
    The welcome screen of each demo call to the CMS to retrieve the information about the demo and display it on the screen.
 
-2. device
+2. **device**
    Contain all the information about the different devices (SBCs, smart plugs, etc.). This is useful for the :ref:`scripts` to work properly.
    It is mainly used to be able to retreive the local ip adress of the device if it has changed. If you add a new device you should register it there.
 
-3. Interface components
+3. **Interface components** (en/fr/nl)
    Contains the multilingual content of the different interface components shared between different demos (buttons, titles, etc.)
 
-4. whichContentIsReal_MediaLists
+4. **whichContentIsReal_MediaLists**
    This collection is used by the which content is real demo. It contains the different real/fake media pairs
 
-5. demo_chatbot
+5. **demo_chatbot** (en/fr/nl)
    his collection is used by the which content is real demo. It contains information about the different chatbot that can be used
 
 .. _sbc:
