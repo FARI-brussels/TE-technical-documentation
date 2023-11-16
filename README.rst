@@ -1,13 +1,7 @@
 Template for the Read the Docs tutorial
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+Technical documentation for the Test and Experience Center. The documentation get updated at each push on the main branch.
 
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
-
-
-
+Built project is accessible here : 
 https://readthedocs.org/projects/te-technical-documentation/
