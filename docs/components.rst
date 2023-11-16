@@ -2,34 +2,6 @@
 Components
 ==========
 
-.. _cms:
-
-Content Management System
--------------------------
-
-The experience center CMS is based on strapi. The documentation can be found `here <https://strapi.io/documentation/developer-docs/latest/getting-started/introduction.html>`_.
-It is currently hosted on Gandi and can be accessed `here <http://46.226.110.124:1337/admin/>`_. If you need access to the CMS, please contact Siméon Michel.
-We will soon migrate the CMS to a Strapi cloud infrastructure and the documentation will be updated accordingly.
-
-The content management system contains the following collections:
-
-1. **demo** (en/fr/nl)
-   Contains all the information about the demos for the welcome screen to work properly. 
-   The welcome screen of each demo call to the CMS to retrieve the information about the demo and display it on the screen.
-
-2. **device**
-   Contain all the information about the different devices (SBCs, smart plugs, etc.). This is useful for the :ref:`scripts` to work properly.
-   It is mainly used to be able to retreive the local ip adress of the device if it has changed. If you add a new device you should register it there.
-
-3. **Interface components** (en/fr/nl)
-   Contains the multilingual content of the different interface components shared between different demos (buttons, titles, etc.)
-
-4. **whichContentIsReal_MediaLists**
-   This collection is used by the which content is real demo. It contains the different real/fake media pairs
-
-5. **demo_chatbot** (en/fr/nl)
-   his collection is used by the which content is real demo. It contains information about the different chatbot that can be used
-
 .. _sbc:
 
 Single Board Computers
@@ -128,7 +100,7 @@ Optional Steps
 Smart Plugs
 -----------
 
-All demos are wired to electricity through shelly smart plugs. The documentation can be found [here](https://shelly-api-docs.shelly.cloud/).
+All demos are wired to electricity through shelly smart plugs. The documentation can be found `here <https://shelly-api-docs.shelly.cloud>`_.
 To access the dashboard, you can download the `shelly mobile app <https://play.google.com/store/apps/details?id=cloud.shelly.smartcontrol&hl=en_US>`_ or access to the `web app <https://control.shelly.cloud/>`_.
 The credentials can be found on the test and experience password vault.
 
@@ -136,7 +108,35 @@ The credentials can be found on the test and experience password vault.
    :toctree: generated
 
 
-.. _scripts:
 
+.. _cms:
+Content Management System
+-------------------------
+
+The experience center CMS is based on strapi. The documentation can be found `here <https://strapi.io/documentation/developer-docs/latest/getting-started/introduction.html>`_.
+It is currently hosted on Gandi and can be accessed `here <http://46.226.110.124:1337/admin/>`_. If you need access to the CMS, please contact Siméon Michel.
+We will soon migrate the CMS to a Strapi cloud infrastructure and the documentation will be updated accordingly.
+
+The content management system contains the following collections:
+
+1. **demo** (en/fr/nl) : 
+   Contains all the information about the demos for the welcome screen to work properly. 
+   The welcome screen of each demo call to the CMS to retrieve the information about the demo and display it on the screen.
+
+2. **device** : 
+   Contain all the information about the different devices (SBCs, smart plugs, etc.). This is useful for the :ref:`scripts` to work properly.
+   It is mainly used to be able to retreive the local ip adress of the device if it has changed. If you add a new device you should register it there.
+
+3. **Interface components** (en/fr/nl) : 
+   Contains the multilingual content of the different interface components shared between different demos (buttons, titles, etc.)
+
+4. **whichContentIsReal_MediaLists** : 
+   This collection is used by the which content is real demo. It contains the different real/fake media pairs
+
+5. **demo_chatbot** (en/fr/nl) : 
+   This collection is used by the which content is real demo. It contains information about the different chatbot that can be used
+
+
+.. _scripts:
 Scripts
 -------
