@@ -137,6 +137,12 @@ The content management system contains the following collections:
    This collection is used by the which content is real demo. It contains information about the different chatbot that can be used
 
 
+.. _welcome_screen:
+Scripts
+-------
+Each demo is displayed on a screen with a welcome screen. The welcome screen is a web page that is displayed on a chromium browser in kiosk mode.
+The welcome screen is written is plain javascipt and is available `here <https://github.com/FARI-brussels/Welcome-Screen>`_.
+
 .. _scripts:
 Scripts
 -------
