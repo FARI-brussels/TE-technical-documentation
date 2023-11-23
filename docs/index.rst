@@ -14,7 +14,7 @@ The documentation is structured as follows:
    Describes the processes for running and maintaining the exhibition space. Including how to start and stop the exhibition space, how to update the software components, and how to add new demonstrations.
 :ref:`components`
    Describes the individual hardware and software components of the exhibition space.
-:ref:`demonstration`
+:ref:`demonstrations`
    List information about the individual demonstrations.
 
 .. note::
