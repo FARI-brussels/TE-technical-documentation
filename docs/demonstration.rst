@@ -2,6 +2,48 @@
 Demonstrations
 ==============
 
+Simplex
+-------
+
+Animal welfare
+--------------
+`Repository <https://github.com/FARI-brussels/demo-iridia-animal-welfare>`
+
+Visual question answering AIlab
+-------------------------------
+
+Visual question answering Etro
+------------------------------
+`Repository <https://github.com/FARI-brussels/demo-etro-visual-question-answering>`
+
+Chatbots
+--------
+`Backend <https://github.com/FARI-brussels/demo-fari-chatbot-backend>`
+`Frontend <https://github.com/FARI-brussels/demo-fari-chatbot-frontend>`
+
+Haptic device
+-------------
+
+Which content is real ?
+-----------------------
+`Repository <https://github.com/FARI-brussels/demo-fari-which-content-is-real>`
+
+Smart prothesis
+---------------
+
+Exoskeletons
+------------
+
+Brieckiebot
+------------
+
+Swarm robotics
+--------------
+
+Brain computer interface
+------------------------
+
+
 Smartgrid
 ---------
 Troubleshooting
