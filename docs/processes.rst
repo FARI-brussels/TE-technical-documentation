@@ -36,9 +36,26 @@ The smart plugs are scheduled to power on at 9:00 am and power off at 6:00 pm in
 Adding a Demo
 -------------
 
-1. Configure a new SBC (see above)
-2. Create a new ``name_of_the_demo.sh``
-3. Run the script ``add_demo.sh`` to add a desktop link with the new demo to all SBCs
+1. Flash a new SBC with one of the fari custom image. or create a new distribition as descibed in the :ref:`sbc` section.
+2. Clone the `TE-Scripts repository <https://github.com/FARI-brussels/TE-Scripts>`_ in the documents.
+3. Create a new script ``name_of_the_demo.sh`` in the ``individual_demos`` folder of the `TE-Scripts repository <https://github.com/FARI-brussels/TE-Scripts>`_ 
+   THere is the minimal content of this script:
+.. code-block:: bash
+    DEMO_ID="CMS_ID"
+    WELCOME_SCREEN_DIR="/home/fari/Documents/Welcome-Screen"
+    WELCOME_SCREEN_REPO="https://github.com/FARI-brussels/welcome-screen"
+    SCRIPT_DIR="/home/fari/Documents/TE-Scripts"
 
+    # Use git_sync.sh to sync both repositories
+    "$SCRIPT_DIR/clone_or_pull_repo.sh" "$WELCOME_SCREEN_DIR" "$WELCOME_SCREEN_REPO"
 
+    # Launch the welcome screen using launch_welcome_screen.sh
+    "$SCRIPT_DIR/launch_welcome_screen.sh" "$WELCOME_SCREEN_DIR" "$DEMO_ID"
+```
+If the demo relies on additional code, you can add it to the script.
+
+4. If you plug the SBC to a new socket (that has no smart plug yet), you need to plug a new smart plug the the socket and add it the the test and experience center room and the demo group in the shelly app.
+5. On the SBC desktop, go to startup applications and add a new startup program with the following command:
+.. code-block:: bash  
+    bash /home/fari/Documents/TE-Scripts/individual_demos/name_of_the_demo.sh
 
