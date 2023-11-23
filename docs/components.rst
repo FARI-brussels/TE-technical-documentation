@@ -140,3 +140,17 @@ The content management system contains the following collections:
 .. _scripts:
 Scripts
 -------
+
+There is a collection of bash scripts in `this repository <https://github.com/FARI-brussels/TE-Scripts>`_
+They are used to maintain an update the kernels installed on the different SBCs as well as to add a new demonstration.
+Here is a description of the different scripts:
+
+* **update_ips.sh**: Updates the IP addresses of SBCs in the CMS based on arp-scan results. This script is usefull because we currently don't have the possibility to have fixed local ips on BeCentral network.
+* **enable_autologin.sh**: Enables autologin on SBCs to bypass the login screen. This script is used to avoid having to enter the passwords each time we start a SBC. It must be run once only.
+* **create-desktop-icons.sh**: Generates desktop icons for each demonstration. This script is used to generate the desktop icons for each demo. It must be run once only.
+* **clone_or_pull_repo.sh**: Utility script to clone or update a repository.
+* **launch_welcome_screen.sh**: Starts the welcome screen.
+* **update_all_devices.sh**: Updates all devices by running a command on them using SSH.
+* **ssh_to_device.sh**: Provides SSH access to a specific SBC by its device name.
+
+More documentation about the scripts is available in the repository.
