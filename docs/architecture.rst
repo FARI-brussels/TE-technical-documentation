@@ -15,25 +15,31 @@ The architecture of the Test and Experience Center comprises several key compone
 Components
 ----------
 - **Single Board Computers (SBCs)**:
+  
   - Function: Runs a web interface, connected to a smart plug.
   - Usage: Automatically boots and launches the web interface when powered on by the smart plug.
 
 - **Computers**:
+  
   - Same than SBCs. Used when more computing power is needed.
 
 - **Content Management System (Strapi)**:
+  
   - Function: Manages the content for the SBCs' web interfaces.
   - Interaction: SBC web interfaces fetch content from this CMS.
 
 - **Smart Plugs**:
+  
   - Function: Controls the on/off power supply of SBCs.
   - Interaction: Managed via Shelly Cloud.
 
 - **Smart plug Cloud Platform (Shelly Cloud)**:
+  
   - Purpose: Manages smart plugs.
   - Function: Programs smart plugs to power on/off at specific times.
 
 - **Web Interface**:
+  
   - Location: On each SBC.
   - Function: Fetches and displays content from CMS on a harmonized interface.
 
