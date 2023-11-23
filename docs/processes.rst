@@ -52,7 +52,7 @@ Adding a Demo
 
     # Launch the welcome screen using launch_welcome_screen.sh
     "$SCRIPT_DIR/launch_welcome_screen.sh" "$WELCOME_SCREEN_DIR" "$DEMO_ID"
-```
+
 If the demo relies on additional code, you can add it to the script.
 
 5. Make the script executable with the following command:
