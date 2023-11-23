@@ -57,11 +57,13 @@ Adding a Demo
 If the demo relies on additional code, you can add it to the script.
 
 5. Make the script executable with the following command:
+   
 .. code-block:: bash
 
     chmod +x name_of_the_demo.sh
-6. On the SBC desktop, go to startup applications and add a new startup program with the following command:
+1. On the SBC desktop, go to startup applications and add a new startup program with the following command:
+   
 .. code-block:: bash  
-    
+
     bash /home/fari/Documents/TE-Scripts/individual_demos/name_of_the_demo.sh
 
