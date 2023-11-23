@@ -40,8 +40,9 @@ Adding a Demo
 2. If you plug the SBC to a new socket (that has no smart plug yet), you need to plug a new smart plug the the socket and add it the the test and experience center room and the demo group in the shelly app.
 3. Clone the `TE-Scripts repository <https://github.com/FARI-brussels/TE-Scripts>`_ in the documents.
 4. Create a new script ``name_of_the_demo.sh`` in the ``individual_demos`` folder of the `TE-Scripts repository <https://github.com/FARI-brussels/TE-Scripts>`_ 
-   THere is the minimal content of this script:
+   Here is the minimal content of this script:
 .. code-block:: bash
+
     DEMO_ID="CMS_ID"
     WELCOME_SCREEN_DIR="/home/fari/Documents/Welcome-Screen"
     WELCOME_SCREEN_REPO="https://github.com/FARI-brussels/welcome-screen"
@@ -57,8 +58,10 @@ If the demo relies on additional code, you can add it to the script.
 
 5. Make the script executable with the following command:
 .. code-block:: bash
+
     chmod +x name_of_the_demo.sh
 6. On the SBC desktop, go to startup applications and add a new startup program with the following command:
 .. code-block:: bash  
+    
     bash /home/fari/Documents/TE-Scripts/individual_demos/name_of_the_demo.sh
 
