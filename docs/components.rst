@@ -94,6 +94,14 @@ Optional Steps
 .. autosummary::
    :toctree: generated
 
+Computers
+---------
+
+Beside the SBCs, we also have computers for demo that requires more power. While ubuntu is preferred for all devices, we also have windows computers for some demos.
+Computers run on windows 10. The main disadvantage of windows is that the :ref:`scripts` cannot be used.
+To set up a new windows computer, you can install the following ISO on the computer: ADD link.
+You will need to set up the bios so that the computer lights on when the power is activated through the smart plug (As explained `here <https://www.wintips.org/setup-computer-to-auto-power-on-after-power-outage/>`_. 
+Then you will need to write a script to launch the demo and add that script to the start up apps.
 
 .. _sp:
 
