@@ -40,7 +40,9 @@ Brieckiebot
 Swarm robotics
 --------------
 Ressources : 
-Sphero bots manual : https://cdn.shopify.com/s/files/1/0306/6419/6141/files/BOLT_Power_Pack_Educator_Guide.pdf?v=1659995799
+`Sphero bots manual : <https://cdn.shopify.com/s/files/1/0306/6419/6141/files/BOLT_Power_Pack_Educator_Guide.pdf?v=1659995799>`_
+ 
+`Unofficial Python library for Sphero <https://github.com/artificial-intelligence-class/spherov2.py>`_
 
 Brain computer interface
 ------------------------
