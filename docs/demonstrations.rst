@@ -66,8 +66,11 @@ Possible network configurations
 1. The simulation can run on a single rpi of odroid but then it allows two display max. (This is how it is currently running).
 2. The other opposite is to run the simulation with one rpi of odroid per household or substation. The we can have one display per agent. (This is how the simulation was running before Phil asked to disconnect it)
 
-Ressources :
+Ressources
+^^^^^^^^^^
 `Repository <https://github.com/mrcyme/SmartGrid>`_
+`Installation instructions <https://vub.sharepoint.com/:w:/r/teams/ai-exp-center/_layouts/15/Doc.aspx?sourcedoc=%7B9033FBA9-4F11-4E47-857E-4D34F3912B6E%7D&file=NRGcoin_new_version_notes_installation.docx&action=default&mobileredirect=true>`_
+`Diverse article on the demo and its associated research project <https://vub.sharepoint.com/teams/ai-exp-center/Shared%20Documents/Forms/AllItems.aspx?newTargetListUrl=%2Fteams%2Fai%2Dexp%2Dcenter%2FShared%20Documents&viewpath=%2Fteams%2Fai%2Dexp%2Dcenter%2FShared%20Documents%2FForms%2FAllItems%2Easpx&id=%2Fteams%2Fai%2Dexp%2Dcenter%2FShared%20Documents%2FDemos%2Fdemos%20info%2FInstructions%5FBackground%5FPapers%2FAI%20lab%2FNRGcoin%2Farticles&viewid=a8c1e953%2D35dd%2D481c%2D8ece%2D6cba8a982951>`_
 
 
 .. autosummary::
