@@ -146,22 +146,22 @@ The content management system contains the following collections:
 
 
 You can connect to the server hosting the CMS using ssh : 
-.. code-block:: bash
-   ssh fari@46.226.110.124
+   .. code-block:: bash
+      ssh fari@46.226.110.124
 
 To prevent the CMS to shut down when exiting the terminal we use [pm2](https://pm2.keymetrics.io/) to launch the process.
-.. code-block:: bash
-   #Start the cms
-   pm2 start server
+   .. code-block:: bash
+      #Start the cms
+      pm2 start server
 
-.. code-block:: bash
-   #Stop the cms
-   pm2 stop server
+   .. code-block:: bash
+      #Stop the cms
+      pm2 stop server
 
 When you want to add a new content type to the cms, it has to be launched using the following command :
-.. code-block:: bash
-   cd fariCMS
-   npm run develop
+   .. code-block:: bash
+      cd fariCMS
+      npm run develop
 
 .. _welcome_screen:
 Scripts
