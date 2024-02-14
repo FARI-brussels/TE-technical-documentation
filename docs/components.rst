@@ -164,10 +164,27 @@ When you want to add a new content type to the cms, it has to be launched using 
       npm run develop
 
 .. _welcome_screen:
-Scripts
--------
+Welcome Screen
+--------------
 Each demo is displayed on a screen with a welcome screen. The welcome screen is a web page that is displayed on a chromium browser in kiosk mode.
 The welcome screen is written is plain javascipt and is available `here <https://github.com/FARI-brussels/Welcome-Screen>`_.
+
+Totem
+-----
+The totem runs on a rasperry pi. The distribution is an arbian image similar to the one used for the other SBC and describe here 
+:ref:`sbc`
+However some additional steps are required to set up a distro for the totem:
+
+1. In settings, display, set the orientation to portrait right
+   
+2. Use xinput to rotate the touch screen input
+
+   .. code-block:: bash
+      sudo apt install xinput
+      xinput list # to find the device id of the touch screen
+      xinput set-prop "Touchscreen_Device_ID" --type=float "Coordinate Transformation Matrix" 0 -1 1 1 0 0 0 0 1
+
+
 
 .. _scripts:
 Scripts
@@ -184,5 +201,5 @@ Here is a description of the different scripts:
 * **launch_welcome_screen.sh**: Starts the welcome screen.
 * **update_all_devices.sh**: Updates all devices by running a command on them using SSH.
 * **ssh_to_device.sh**: Provides SSH access to a specific SBC by its device name.
-
+* **totem/totem.sh**: Launch the totem interface
 More documentation about the scripts is available in the repository.
