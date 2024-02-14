@@ -8,3 +8,6 @@ https://readthedocs.org/projects/te-technical-documentation/
 
 Built doc is accessible here : 
 https://te-technical-documentation.readthedocs.io/en/latest/
+
+
+xinput set-prop "Touchscreen_Device_ID" --type=float "Coordinate Transformation Matrix" 0 -1 1 1 0 0 0 0 1
