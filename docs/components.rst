@@ -24,6 +24,8 @@ To prepare a new SBC with the Armbian image, follow these steps:
 4. When prompted, set the root and user passwords to `fari.brussels` and choose `fari` as the username. Note: The default keyboard layout is QWERTY.
 5. Select `bash` as the default shell.
 6. During the initial setup, opt to skip Wi-Fi connection and locale generation (skip generation locales).
+7. In settings -> keyboard, change keyboard layout to belgian
+8. Connect to wifi
 
 Initial System Update and Package Installation
 ``````````````````````````````````````````````
