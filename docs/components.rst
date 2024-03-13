@@ -23,7 +23,7 @@ To prepare a new SBC with the Armbian image, follow these steps:
 3. Insert the SD card into the SBC and power it on.
 4. When prompted, set the root and user passwords to `fari.brussels` and choose `fari` as the username. Note: The default keyboard layout is QWERTY.
 5. Select `bash` as the default shell.
-6. During the initial setup, opt to skip Wi-Fi connection and locale generation (skip locales 154).
+6. During the initial setup, opt to skip Wi-Fi connection and locale generation (skip generation locales).
 
 Initial System Update and Package Installation
 ``````````````````````````````````````````````
