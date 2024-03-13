@@ -180,11 +180,10 @@ However some additional steps are required to set up a distro for the totem:
 1. In settings, display, set the orientation to portrait right
    
 2. Use xinput to rotate the touch screen input
-
-   .. code-block:: bash
-      sudo apt install xinput
-      xinput list # to find the device id of the touch screen
-      xinput set-prop "Touchscreen_Device_ID" --type=float "Coordinate Transformation Matrix" 0 -1 1 1 0 0 0 0 1
+.. code-block:: bash
+   sudo apt install xinput
+   xinput list # to find the device id of the touch screen
+   xinput set-prop "Touchscreen_Device_ID" --type=float "Coordinate Transformation Matrix" 0 -1 1 1 0 0 0 0 1
 
 
 
