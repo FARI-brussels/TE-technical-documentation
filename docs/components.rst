@@ -25,7 +25,7 @@ To prepare a new SBC with the Armbian image, follow these steps:
 5. Select `bash` as the default shell.
 6. During the initial setup, opt to skip Wi-Fi connection and locale generation (skip generation locales).
 7. In settings - keyboard, change keyboard layout to belgian
-8. Connect to wifi
+8. Connect to the wifi
 
 Initial System Update and Package Installation
 ``````````````````````````````````````````````
@@ -91,6 +91,18 @@ Optional Steps
 
      dpkg --list | grep linux-image
      sudo apt-mark hold linux-image-current-meson64
+
+- **Create a flashable image from the distro**: To create a flashable image from the distro.
+  Linux
+
+  1. Run `sudo fdisk -l` to list the available disks and partitions. Find the disk that corresponds to the SD card (for example /dev/sda).
+  2. Run `sudo dd if=/dev/sda of=~/path_where_you_want_to_save_the_image.img`
+  3. Use `PiShrink <https://github.com/Drewsif/PiShrink>`_ to shrink the image : `sudo bash pishrink.sh ~/path_where_you_have_saved_the_image.img`.
+  4. Compress with xy : `xz -v ~/path_where_you_have_saved_the_image.img`
+  5. Upload the compressed image to the cloud
+   
+  Windows
+  You can use `Win32 <https://win32diskimager.org/>`_ to create an image of the SD card.
 
 
 .. autosummary::
