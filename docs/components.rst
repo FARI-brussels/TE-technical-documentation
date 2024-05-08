@@ -130,6 +130,13 @@ The credentials can be found on the test and experience password vault.
    :toctree: generated
 
 
+.. _router:
+
+Router
+------   
+We have a TP-link Archer C6 router that is used to connect all the devices to the internet. The router is connected to the BeCentral network and is used to connect all the devices to the internet. The router is configured to have a fixed ip address. SSID of the wifi is fari-test-and-experience-center or fari-test-and-experience-cent_5G for the 5G network. The password can be found on the test and experience password vault.
+
+
 
 .. _cms:
 Content Management System
