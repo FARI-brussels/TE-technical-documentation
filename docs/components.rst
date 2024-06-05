@@ -73,6 +73,22 @@ Final file should look like that :
    greeter-show-manual-login=false
    greeter-hide-users=false
    allow-guest=false
+   
+Disable Wayland Server
+``````````````````````
+To be able to exit the activities menu on startup and to have access to the virtual keyboard on the touchscreens, we prefer using X11 display server. To do so you need to disable wayland server. 
+Open custom.conf : 
+
+.. code-block:: bash
+
+   sudo nano /etc/gdm3/custom.conf
+
+And append the following line : 
+
+.. code-block:: bash
+
+   WaylandEnable=false
+   
 
 Optional Steps
 ``````````````
