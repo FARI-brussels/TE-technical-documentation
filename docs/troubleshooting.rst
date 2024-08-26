@@ -30,8 +30,15 @@ Demos not working
         </div>
     </div>
 
+    <video width="320" height="240" controls>
+    <source src="videos/shellyappA.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
 
-Demo running on computer
+
+
+
+Demo not working on computer
 ^^^^^^^^^^^^^^^^^^^^^^^^
 1. If the the computer does not light up refer to the smart plugs section.
 2. Restart the computer
@@ -41,7 +48,7 @@ Demo running on computer
 6. If no wifi available refer to the internet outage section.
 7. 🙏
    
-Demo running on single board computer
+Demo not working on single board computer
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 1. If the the computer does not light up refer to the smart plugs section.
 2. unplug and plug back the single board computer power cable.
@@ -57,8 +64,9 @@ Individual demos
 
 Swarm robotics
 ^^^^^^^^^^^^^^
-1. Ctrl shift + r
-
+1. If the button of the interface seems to not have any effect, click ctrl + shift + r to refresh the page.
+2. Refer demo not working on computer section.
+3. 
 Tictactoe
 ^^^^^^^^^
 1. Check that the emergency stop if not pushed, if it is unpush it.
