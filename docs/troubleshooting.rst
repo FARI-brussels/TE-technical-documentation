@@ -18,7 +18,7 @@ Demos not working
     <div style="display: flex; justify-content: space-between;">
         <div style="flex: 1; margin-right: 10px;">
             <video width="100%" controls>
-                <source src="videos/shellyappA.mp4" type="video/mp4">
+                <source src="https://youtube.com/shorts/SdUEqAUMYcA?feature=share" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>
@@ -29,11 +29,6 @@ Demos not working
             </video>
         </div>
     </div>
-
-    <video width="320" height="240" controls>
-    <source src="videos/shellyappA.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-        </video>
 
 
 
