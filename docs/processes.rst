@@ -14,6 +14,7 @@ The smart plugs are scheduled to power on at 9:00 am and power off at 6:00 pm in
 2. Navigate to the experience center room, then to groups and click the on button. 
 3. If you wich to start only one demo, navigate to the corresponding plug and click on the on button.
 
+
    
 Troubleshooting
 ^^^^^^^^^^^^^^^
