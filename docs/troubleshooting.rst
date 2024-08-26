@@ -18,19 +18,19 @@ Demos not working
     <div style="display: flex; justify-content: space-between;">
         <div style="flex: 1; margin-right: 10px;">
             <video width="100%" controls>
-                <source src="docs/videos/shellyappA.mp4" type="video/mp4">
+                <source src="videos/shellyappA.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>
         <div style="flex: 1; margin-left: 10px;">
             <video width="100%" controls>
-                <source src="docs/videos/shellywebappy.webm" type="video/webm">
+                <source src="videos/shellywebappy.webm" type="video/webm">
                 Your browser does not support the video tag.
             </video>
         </div>
     </div>
 
-    
+
 Demo running on computer
 ^^^^^^^^^^^^^^^^^^^^^^^^
 1. If the the computer does not light up refer to the smart plugs section.
