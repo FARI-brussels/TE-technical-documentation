@@ -17,13 +17,10 @@ Demos not working
 
     <div style="display: flex; justify-content: space-between;">
         <div style="flex: 1; margin-right: 10px;">
-            <iframe src="https://www.youtube.com/shorts/SdUEqAUMYcA" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/KC3UrCKDboY?si=09PKwuKU7S0DHz1-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         <div style="flex: 1; margin-left: 10px;">
-            <video width="100%" controls>
-                <source src="https://youtu.be/KC3UrCKDboY" type="video/webm">
-                Your browser does not support the video tag.
-            </video>
+            <iframe src="https://youtu.be/KC3UrCKDboY" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
         </div>
     </div>
 
