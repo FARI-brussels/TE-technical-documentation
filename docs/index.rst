@@ -35,6 +35,6 @@ Contents
    components
    furnitures
    demonstrations
-   
+   troubleshooting
 
    
