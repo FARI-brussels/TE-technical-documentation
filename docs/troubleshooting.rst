@@ -52,7 +52,7 @@ Swarm robotics
 ^^^^^^^^^^^^^^
 1. If the button of the interface seems to not have any effect, click ctrl + shift + r to refresh the page.
 2. Refer demo not working on computer section.
-3. 
+
 Tictactoe
 ^^^^^^^^^
 1. Check that the emergency stop if not pushed, if it is unpush it.
