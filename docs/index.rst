@@ -18,6 +18,8 @@ The documentation is structured as follows:
    designed and built in house.
 :ref:`demonstrations`
    List information about the individual demonstrations.
+:ref:`troubleshooting`
+   List troubleshooting information for common problems.
 
 .. note::
 
