@@ -17,10 +17,7 @@ Demos not working
 
     <div style="display: flex; justify-content: space-between;">
         <div style="flex: 1; margin-right: 10px;">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/KC3UrCKDboY?si=09PKwuKU7S0DHz1-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-        <div style="flex: 1; margin-left: 10px;">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/KC3UrCKDboY?si=09PKwuKU7S0DHz1-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="373" height="210" src="https://www.youtube.com/embed/KC3UrCKDboY?si=09PKwuKU7S0DHz1-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
     </div>
 
