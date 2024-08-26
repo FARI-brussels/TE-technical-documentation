@@ -17,14 +17,11 @@ Demos not working
 
     <div style="display: flex; justify-content: space-between;">
         <div style="flex: 1; margin-right: 10px;">
-            <video width="100%" controls>
-                <source src="https://youtube.com/shorts/SdUEqAUMYcA?feature=share" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+            <iframe src="https://www.youtube.com/shorts/SdUEqAUMYcA" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
         </div>
         <div style="flex: 1; margin-left: 10px;">
             <video width="100%" controls>
-                <source src="videos/shellywebappy.webm" type="video/webm">
+                <source src="https://youtu.be/KC3UrCKDboY" type="video/webm">
                 Your browser does not support the video tag.
             </video>
         </div>
