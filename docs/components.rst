@@ -157,34 +157,8 @@ Optional Steps
 
 Writing an Image to an SD Card (Restore)
 ````````````````````````````````````````
-
-If you want to flash an image back to an SD card, here’s how:
-
-1. Insert the SD card into your computer.
-
-2. Identify the SD card device
-   As before, run:
-   
-   sudo fdisk -l
-   
-   to identify your SD card (e.g., `/dev/sda` or `/dev/mmcblk0`).
-
-3. Write the image to the SD card
-   Use the `dd` command to write the image to your SD card. Be very careful, as this process will overwrite everything on the SD card.
-   
-   sudo dd if=~/path_to_image.img of=/dev/sda bs=4M status=progress
-   
-   - `if=~/path_to_image.img`: The path to the image you want to write.
-   - `of=/dev/sda`: The SD card device.
-   - `bs=4M`: Block size for faster writing.
-   - `status=progress`: Shows progress during writing.
-
-4. Safely eject the SD card
-   Once the writing process is complete, safely eject the SD card by running:
-   
-   sudo eject /dev/sda
-   
-   Now, the SD card is ready to be used.
+1. Use balenaEtcher
+   You can use `balenaEtcher <https://www.balena.io/etcher/>`_ to write the image to the SD card. It is a simple tool that works on Windows, macOS, and Linux.
 
 
 
