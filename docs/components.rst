@@ -108,14 +108,86 @@ Optional Steps
      dpkg --list | grep linux-image
      sudo apt-mark hold linux-image-current-meson64
 
-- **Create a flashable image from the distro**: To create a flashable image from the distro.
-  Linux
+-Creating a Flashable Image from the SD Card (Backup)
+`````````````````````````````````````````````````````
 
-  1. Run `sudo fdisk -l` to list the available disks and partitions. Find the disk that corresponds to the SD card (for example /dev/sda).
-  2. Run `sudo dd if=/dev/sda of=~/path_where_you_want_to_save_the_image.img`
-  3. Use `PiShrink <https://github.com/Drewsif/PiShrink>`_ to shrink the image : `sudo bash pishrink.sh ~/path_where_you_have_saved_the_image.img`.
-  4. Compress with xy : `xz -v ~/path_where_you_have_saved_the_image.img`
-  5. Upload the compressed image to the cloud
+1. Insert your SD card into your computer
+   Use an SD card reader if needed. Make sure the card is properly connected.
+
+2. Find the SD card's device name
+   Open a terminal and run the following command to list all available disks and partitions:
+   
+   sudo fdisk -l
+   
+   This will show you a list of disks. Look for your SD card by its size, typically it will be `/dev/sda`, `/dev/mmcblk0`, or something similar. Be cautious to select the right disk.
+
+3. Create an image of the SD card
+   To create a backup (image) of your SD card, use the `dd` command. Replace `/dev/sda` with the correct device name of your SD card:
+   
+   sudo dd if=/dev/sda of=~/path_where_you_want_to_save_the_image.img bs=4M status=progress
+   
+   - `if=/dev/sda`: Specifies the SD card you are reading from.
+   - `of=~/path_to_image.img`: Specifies the path and name where you want to save the image.
+   - `bs=4M`: Block size for faster processing.
+   - `status=progress`: Shows the progress while copying.
+
+4. Shrink the image (optional)
+   SD card images can take up a lot of space. You can shrink the image using a tool called PiShrink. It automatically shrinks the image file, making it smaller to save space.
+   
+   First, download and install PiShrink:
+   
+   git clone https://github.com/Drewsif/PiShrink.git
+   cd PiShrink
+   chmod +x pishrink.sh
+
+   Now, run PiShrink on the image:
+   
+   sudo bash pishrink.sh ~/path_where_you_have_saved_the_image.img
+
+5. Compress the image
+   To further reduce the size, you can compress the image using `xz`:
+   
+   xz -v ~/path_where_you_have_saved_the_image.img
+   
+   This will create a compressed file with the `.img.xz` extension.
+
+6. Upload the compressed image
+   Once compressed, you can upload it to the cloud (e.g., Google Drive, AWS, etc.) using your preferred method.
+
+
+Writing an Image to an SD Card (Restore)
+````````````````````````````````````````
+
+If you want to flash an image back to an SD card, here’s how:
+
+1. Insert the SD card into your computer.
+
+2. Identify the SD card device
+   As before, run:
+   
+   sudo fdisk -l
+   
+   to identify your SD card (e.g., `/dev/sda` or `/dev/mmcblk0`).
+
+3. Write the image to the SD card
+   Use the `dd` command to write the image to your SD card. Be very careful, as this process will overwrite everything on the SD card.
+   
+   sudo dd if=~/path_to_image.img of=/dev/sda bs=4M status=progress
+   
+   - `if=~/path_to_image.img`: The path to the image you want to write.
+   - `of=/dev/sda`: The SD card device.
+   - `bs=4M`: Block size for faster writing.
+   - `status=progress`: Shows progress during writing.
+
+4. Safely eject the SD card
+   Once the writing process is complete, safely eject the SD card by running:
+   
+   sudo eject /dev/sda
+   
+   Now, the SD card is ready to be used.
+
+
+
    
   Windows
   You can use `Win32 <https://win32diskimager.org/>`_ to create an image of the SD card.
