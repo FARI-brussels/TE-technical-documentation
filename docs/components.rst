@@ -230,19 +230,23 @@ The content management system contains the following collections:
 
 You can connect to the server hosting the CMS using ssh : 
    .. code-block:: bash
+
       ssh fari@46.226.110.124
 
 To prevent the CMS to shut down when exiting the terminal we use [pm2](https://pm2.keymetrics.io/) to launch the process.
    .. code-block:: bash
+
       #Start the cms
       pm2 start server
 
    .. code-block:: bash
+
       #Stop the cms
       pm2 stop server
 
 When you want to add a new content type to the cms, it has to be launched using the following command :
    .. code-block:: bash
+
       cd fariCMS
       npm run develop
 
@@ -262,10 +266,11 @@ However some additional steps are required to set up a distro for the totem:
    
 2. Use xinput to rotate the touch screen input
    
-   .. code-block:: bash
-      sudo apt install xinput
-      xinput list # to find the device id of the touch screen
-      xinput set-prop "Touchscreen_Device_ID" --type=float "Coordinate Transformation Matrix" 0 -1 1 1 0 0 0 0 1
+.. code-block:: bash
+
+   sudo apt install xinput
+   xinput list # to find the device id of the touch screen
+   xinput set-prop "Touchscreen_Device_ID" --type=float "Coordinate Transformation Matrix" 0 -1 1 1 0 0 0 0 1
 
 
 
